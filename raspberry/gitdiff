@@ -1,0 +1,15 @@
+diff --git a/raspberry/wpa_supplicant.conf b/raspberry/wpa_supplicant.conf
+index ebe676c..affc163 100644
+--- a/raspberry/wpa_supplicant.conf
++++ b/raspberry/wpa_supplicant.conf
+@@ -3,8 +3,8 @@ update_config=1
+ country=at
+ 
+ network={
+- ssid="garlicmother"
+- psk="onion123”
++ ssid="network-name"
++ psk="network-password”
+  key_mgmt=WPA-PSK
+  scan_ssid=1
+ }
